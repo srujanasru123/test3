@@ -1,0 +1,165 @@
+1.Method overloading which has same method with different parameters.
+class Person{
+static void main
+{
+System.out.println("Invoking the person info");
+}
+static void(String name)
+{
+System.out.println("Invoking the person ":+name);
+}
+static void(String name,int age)
+{
+System.out.println("Invoking  the person":+name);
+System.out.println("invoking the person":+age);
+}
+}
+class PersonMaker{
+public staic void main(String[]things)
+{
+System.out.println("Information about the person");
+System.out.println("Srujana,23");
+}
+
+2.class Laptop{
+public static void main(String[] information);
+{
+System.out.println(" invoking the information about the laptop);
+String brand="Dell";
+Double Price=65,568.00;
+{
+System.out.println("information abt brand":+brand);
+system.out.println("iformation abt price":+price);
+}
+}
+
+4.class Mobile{
+String brand;
+String color;
+double price;
+
+Mobile()
+{
+System.out.println(" info abt the mobile");
+}
+Mobile(String brand)
+{
+System.out.println("info abt the mobile");
+System.out.println("info abt the mobile":+brand);
+this.brand=Brand;
+}
+Mobile(String brand,String color)
+{
+System.out.println("info abt the mobile");
+System.out.println("info abt the mobile":+brand);
+System.out.println("info abt the mobile":+color);
+this.brand=Brand;
+this.color=color;
+}
+Mobile(String brand,String color,double price)
+{
+System.out.println("info abt the mobile");
+System.out.println("info abt the mobile":+brand);
+System.out.println("info abt the mobile":+color);
+System.out.println("info abt the mobile":+price);
+this.brand=Brand;
+this.color=color;
+this.price=price;
+}
+}
+
+class MobileMaker{
+public static void main(String[]things);
+{
+Mobile mobile=new mobile;
+System.out.println("Vivo,black,23,897.00");
+}
+}
+
+7.Constructor chaining 
+ class Person{
+String name;
+String location;
+int age;
+
+Person()
+{
+System.out.println("information abt person");
+}
+Person(String name)
+{
+System.out.println("information abt person":+name);
+this.name=name;
+}
+Person(String name,String location)
+{ 
+System.out.println("information abt person":+name);
+System.out.println("information abt person":+location);
+this.name=name;
+this.location=location;
+}
+Person(String name,String location,int age)
+{
+this.name=name;
+this.location=location;
+System.out.println("information abt person":+name);
+System.out.println("information abt person":+location);
+System.out.println("information abt person":+age);
+this.age=age;
+}
+}
+
+class PersonMaker{
+public staic void main(String[]things)
+{
+Person person=new person;
+System.out.println("Srujana,Bangalore,23");
+}
+}
+
+6.Static method
+class Person{
+static void main(eat)
+{
+System.out.println("invoking eat info");
+}
+static void main(sleep)
+{
+System.out.println("invoking sleep info");
+}
+}
+
+class PersonMaker{
+public static void main(String[]args)
+{
+System.out.println("info abt person");
+Person.person=eat;
+Person.person=sleep;
+}
+}
+
+class Person{
+public static void main(String[] information);
+{
+System.out.println(" invoking the information about the laptop);
+String name="Srujana";
+int age=23;
+{
+System.out.println("Name":+name);
+system.out.println("age":+age);
+}
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
